@@ -19,7 +19,7 @@ The list of FEATURES are given below.
 15. Speaks Current time
 
 
-Install the libraries given below first then run the code.
+Install the libraries given below first, then run the code.
 1. pip install SpeechRecognition
 2. pip install pycopy-webbrowser
 3. pip install pyttsx3==2.7
