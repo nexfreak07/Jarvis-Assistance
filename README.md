@@ -18,6 +18,18 @@ The list of FEATURES are given below.
 14. Speaks out Jokes 
 15. Speaks Current time
 
+
+Install the libraries given below first then run the code.
+1. pip install SpeechRecognition
+2. pip install pycopy-webbrowser
+3. pip install pyttsx3==2.7
+4. pip install pipwin
+5. pipwin install pyaudio
+6. pip install wikipedia
+7. pip install pyjokes
+8. pip install requests
+9. pip install playsound
+
 I hope this helps you a lot.
 Thank-you
 Regards,
