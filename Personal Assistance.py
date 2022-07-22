@@ -121,32 +121,6 @@ def run_jarvis():
         min = int(now.strftime("%M"))
         pywhatkit.sendwhatmsg(phone_no=msg,message=text,time_hour=hour, time_min=min)
         talk('Sent Successfully')
-    elif 'hindi' in command :
-        talk('Hindi Bolo')
-        while True:
-            query = take_command()
-            winsound.PlaySound('Jai hind dosto.mp3', winsound.SND_FILENAME)
-            x = random.randint(1,10)
-            if x==1:
-                winsound.PlaySound('1.mp3',winsound.SND_FILENAME)
-            elif x==2:
-                winsound.PlaySound('2.mp3',winsound.SND_FILENAME)
-            elif x==3:
-                winsound.PlaySound('3.mp3', winsound.SND_FILENAME)
-            elif x==4:
-                winsound.PlaySound('4.mp3', winsound.SND_FILENAME)
-            elif x==5:
-                winsound.PlaySound('5.mp3', winsound.SND_FILENAME)
-            elif x==6:
-                winsound.PlaySound('6.mp3', winsound.SND_FILENAME)
-            elif x==7:
-                winsound.PlaySound('7.mp3', winsound.SND_FILENAME)
-            elif x==8:
-                winsound.PlaySound('8.mp3', winsound.SND_FILENAME)
-            elif x==9:
-                winsound.PlaySound('9.mp3', winsound.SND_FILENAME)
-            elif x==10:
-                winsound.PlaySound('10.mp3', winsound.SND_FILENAME)
     elif 'exit' in command or 'shutdown' in command:
         talk('okay! shutting down')
         exit()
